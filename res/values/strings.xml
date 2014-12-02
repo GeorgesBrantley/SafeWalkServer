@@ -11,4 +11,13 @@
     <string name="default_command">:FAKE_COMMAND</string>
     <string name="host">Host</string>
     <string name="port">Port</string>
+    <string name="hello_world">Enter type of request</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string-array name="locations">
+        <item>Class of 1950</item>
+        <item>Purdue Memorial Union</item>
+        <item>PUSH</item>
+        <item>Lawson</item>
+        </string-array>
 </resources>

@@ -6,9 +6,102 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="edu.purdue.gbrantle.MainActivity" >
+    tools:context="edu.purdue.mclase.MainActivity" >
 
     <!-- TODO your layout here -->
+    
+     <EditText
+       
+      	android:hint="Name"
+        android:layout_width="fill_parent"
+       	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="TRUE"
+    	android:id="@+id/name"
+    	/>
+    
+    <TextView
+        android:textSize="15sp"
+       	android:layout_marginTop="5dp"
+       	android:layout_below="@id/name"
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="@string/hello_world" />
+    
+    <RadioGroup 
+        
+        android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:layout_marginTop="30dp"
+       	android:id="@+id/rg"
+       	
+       	
+       	>
+        
+        <RadioButton
+            android:textSize="12sp"
+            android:text="I am a volunteer"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:id="@+id/radio1"
+       		android:layout_marginTop="48dp"
+       	
+            />
+        <RadioButton
+            android:textSize="12sp"
+            android:text="I only want to be matched with a volunteer"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:id="@+id/radio2"
+       		
+       		
+            />
+        <RadioButton
+            android:textSize="12sp"
+            android:text="I am willing to match with anyone"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:id="@+id/radio3"
+            />
+        </RadioGroup>
+       
+        
+    <TextView
+        android:textSize="15sp"
+       	
+       	android:layout_below="@id/rg"
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginTop="20dp"
+        android:text="@string/from" 
+        android:id="@+id/from"/>
+    <Spinner 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/from"
+        android:id="@+id/fromspin"
+       />
+    
+    <TextView
+        android:textSize="15sp"
+       	
+       	android:layout_below="@id/fromspin"
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:id="@+id/to"
+        android:text="@string/to" />
+    <Spinner 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/to"
+        android:id="@+id/tospin"
+       />
+    
 
     <Button
         android:id="@+id/bu_submit"
@@ -22,6 +115,7 @@
         android:minWidth="100dp"
         android:onClick="onSubmit"
         android:padding="@dimen/padding"
-        android:text="@string/submit" />
+        android:text="@string/submit"
+         android:layout_alignParentBottom="TRUE" />
 
 </RelativeLayout>

@@ -53,7 +53,6 @@ public class ServerFragment extends Fragment {
 
 		return view;
 	}
-
 	/**
 	 * Returns the host enter by the user or the default value if the user
 	 * didn't open the fragment.

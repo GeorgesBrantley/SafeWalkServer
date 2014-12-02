@@ -8,6 +8,9 @@
 package edu.purdue.gbrantle;
 
 public final class R {
+    public static final class array {
+        public static final int locations=0x7f070000;
+    }
     public static final class attr {
     }
     public static final class color {
@@ -46,16 +49,25 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int bu_left=0x7f090000;
-        public static final int bu_right=0x7f090002;
-        public static final int bu_start_over=0x7f090005;
-        public static final int bu_submit=0x7f090004;
-        public static final int et_host=0x7f090007;
-        public static final int et_port=0x7f090009;
-        public static final int fl_main=0x7f090003;
-        public static final int tv_host=0x7f090006;
-        public static final int tv_port=0x7f090008;
-        public static final int tv_title=0x7f090001;
+        public static final int bu_left=0x7f0a0000;
+        public static final int bu_right=0x7f0a0002;
+        public static final int bu_start_over=0x7f0a000e;
+        public static final int bu_submit=0x7f0a000d;
+        public static final int et_host=0x7f0a0010;
+        public static final int et_port=0x7f0a0012;
+        public static final int fl_main=0x7f0a0003;
+        public static final int from=0x7f0a0009;
+        public static final int fromspin=0x7f0a000a;
+        public static final int name=0x7f0a0004;
+        public static final int radio1=0x7f0a0006;
+        public static final int radio2=0x7f0a0007;
+        public static final int radio3=0x7f0a0008;
+        public static final int rg=0x7f0a0005;
+        public static final int to=0x7f0a000b;
+        public static final int tospin=0x7f0a000c;
+        public static final int tv_host=0x7f0a000f;
+        public static final int tv_port=0x7f0a0011;
+        public static final int tv_title=0x7f0a0001;
     }
     public static final class layout {
         public static final int action_bar=0x7f030000;
@@ -65,7 +77,7 @@ public final class R {
         public static final int server_fragment_layout=0x7f030004;
     }
     public static final class menu {
-        public static final int main=0x7f080000;
+        public static final int main=0x7f090000;
     }
     public static final class string {
         public static final int app_name=0x7f060000;
@@ -73,15 +85,18 @@ public final class R {
         public static final int default_command=0x7f060008;
         public static final int default_host=0x7f060006;
         public static final int default_port=0x7f060007;
+        public static final int from=0x7f06000c;
+        public static final int hello_world=0x7f06000b;
         public static final int host=0x7f060009;
         public static final int match=0x7f060004;
         public static final int port=0x7f06000a;
         public static final int server=0x7f060001;
         public static final int start_over=0x7f060005;
         public static final int submit=0x7f060003;
+        public static final int to=0x7f06000d;
     }
     public static final class style {
-        public static final int ActionBarButton=0x7f070003;
+        public static final int ActionBarButton=0x7f080003;
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
@@ -103,12 +118,12 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
-        public static final int MyActionBar=0x7f070004;
-        public static final int TitleBarText=0x7f070002;
+        public static final int AppTheme=0x7f080001;
+        public static final int MyActionBar=0x7f080004;
+        public static final int TitleBarText=0x7f080002;
     }
 }
